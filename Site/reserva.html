@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reserva de passagens - Descomplica Viagens</title>
+    </head>
+    <body>
+        <section>
+            <h2>Reserva de Viagem - Avançado</h2>
+
+            <form method="GET", action="">
+                <fieldset>
+                    <legend>Dados Básicos:</legend>
+                    
+                    <label for="nome">Nome:</label><br>
+                    <input type="text", name="nome", id="nome"><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email", name="email", id="email">
+                </fieldset> <br>
+
+                <Fieldset>
+                    <legend>Serviços Desejados:</legend>
+                    <label for="passagem">
+                        <input type="checkbox", name="passagem", value="passagem">Compra de Passagens
+                    </label>
+                    <label for="hospedagem">
+                        <input type="checkbox", name="hospedagem", value="hospedagem">Reserva de Hospedagem
+                    </label>
+                    <label for="veiculo">
+                        <input type="checkbox", name="veiculo", value="veiculo">Aluguel de Veículos
+                    </label>
+                </Fieldset> <br>
+
+                <fieldset>
+                    <legend>Forma de Pagamento</legend>
+                    <label for="formaPagto">
+                        <input type="radio", name="formaPagto", value="cartaoCredito">Cartão de Crédito
+                    </label>
+                    <label for="formaPagto">
+                        <input type="radio", name="formaPagto", value="boleto">Boleto Bancário
+                    </label>
+                    <label for="formaPagto">
+                        <input type="radio", name="formaPagto", value="pix">PIX - Desconto
+                    </label>
+                </fieldset> <br>
+
+                <fieldset>
+                    <legend>Prazo de Pagamento</legend>
+                    <select name="formaPagamento" id="formaPagamento">
+                        <option value="vista">à Vista</option>
+                        <option value="5X">5X sem juros</option>
+                        <option value="10X", selected>10X com juros</option>
+                    </select>
+                </fieldset>
+
+                <label for="comentario">Comentário:</label> <br>
+                <textarea name="comentario" id="comentario" cols="50" rows="5", name="comentario"></textarea> <br> <br>
+                <button type="submit">Enviar</button>
+                <hr>
+            </form>
+        </section>
+    </body>
+    <footer>Desenvolvido por Valmir Carneiro para a aula de HTML - Descomplica</footer>
+</html>

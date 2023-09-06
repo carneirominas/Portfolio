@@ -1,0 +1,10 @@
+#preco {
+    text-align: end;
+}
+
+.carousel-caption h5 {
+    font-size: 80px;
+    color:#ffc107;
+    background-color:rgb(27, 102, 77);
+    text-shadow: 2px 2px 2px black;
+}
